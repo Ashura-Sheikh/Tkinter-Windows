@@ -3,6 +3,8 @@ from tkinter import *
 main_window = Tk()
 main_window.geometry("500x500")
 
+label_info = Label(main_window, text="Update the fields above").grid(row=6, columnspan=5)
+
 
 frame_name = Frame(main_window)
 frame_address = Frame(main_window)
