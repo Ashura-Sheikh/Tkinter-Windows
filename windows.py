@@ -11,6 +11,8 @@ label_info = Label(main_window, text="Update the fields above", fg="white", bg="
 frame_name = Frame(main_window)
 frame_address = Frame(main_window)
 
+#Define Functions for submit buttons/ side 
+
 label_first = Label(frame_name, text="First Name: ")
 label_middle = Label(frame_name, text="Middle Name: ")
 label_surname = Label(frame_name, text="Surname: ")
