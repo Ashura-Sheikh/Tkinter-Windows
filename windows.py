@@ -5,13 +5,13 @@ main_window.title("Employee Entry")
 main_window.geometry("500x500")
 main_window.configure(background='black')
 #test
-label_info = Label(main_window, text="Update the fields above", fg="white", bg="green").grid(row=6, columnspan=5)
+label_info = Label(main_window, text="Update the fields above").grid(row=6, columnspan=5)
 
 
 frame_name = Frame(main_window)
 frame_address = Frame(main_window)
 
-#Define Functions for submit buttons/ side 
+#Define Functions for submit buttons/ side
 
 label_first = Label(frame_name, text="First Name: ")
 label_middle = Label(frame_name, text="Middle Name: ")
@@ -29,8 +29,8 @@ entry_staff_number = Entry(frame_address)
 entry_location = Entry(frame_address)
 entry_query = Entry(frame_address)
 
-button_submit_name = Button(frame_name, text="     Submit    ", fg="white", bg="green")
-button_submit_address = Button(frame_address, text="     Submit      ", fg="white", bg="green")
+button_submit_name = Button(frame_name, text="     Submit    ")
+button_submit_address = Button(frame_address, text="     Submit      ")
 
 
 label_first.grid(row=0, column=0)
